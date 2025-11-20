@@ -28,7 +28,7 @@ const Hero = () => {
                     <h2 className="text-lg md:text-xl text-primary font-semibold mb-4 tracking-wide uppercase">
                         Hello, I'm Paul Pandiyan K
                     </h2>
-                    <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
+                    <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 tracking-tight">
                         Software Engineer <br />
                         <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                             & DevOps Enthusiast
@@ -39,24 +39,24 @@ const Hero = () => {
                         Building scalable solutions with Python, AWS, and Kubernetes.
                     </p>
 
-                    <div className="flex justify-center gap-4">
+                    <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
                         <a
                             href="#projects"
-                            className="group bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 flex items-center gap-2"
+                            className="group bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 flex items-center justify-center gap-2"
                         >
                             View Work
                             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
                         </a>
                         <a
                             href="#contact"
-                            className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-sm"
+                            className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-sm flex items-center justify-center"
                         >
                             Contact Me
                         </a>
                         <a
                             href="/Paul_resume_V3.1.pdf"
                             download
-                            className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-sm flex items-center gap-2"
+                            className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-sm flex items-center justify-center gap-2"
                         >
                             Resume
                             <Download size={20} />

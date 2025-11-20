@@ -129,7 +129,7 @@ const Projects = () => {
                                 <div className="absolute inset-0 bg-gradient-to-t from-dark to-transparent" />
                             </div>
 
-                            <div className="p-8">
+                            <div className="p-6 md:p-8">
                                 <h3 className="text-3xl font-bold text-white mb-4">{selectedProject.title}</h3>
 
                                 <div className="flex flex-wrap gap-2 mb-6">
@@ -154,13 +154,13 @@ const Projects = () => {
                                     ))}
                                 </div>
 
-                                <div className="flex gap-4">
+                                <div className="flex flex-col sm:flex-row gap-4">
                                     {selectedProject.github && selectedProject.github !== '#' && (
                                         <a
                                             href={selectedProject.github}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-colors"
+                                            className="flex items-center justify-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-colors"
                                         >
                                             <Github size={20} />
                                             View Code
@@ -171,7 +171,7 @@ const Projects = () => {
                                             href={selectedProject.demo}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-full font-medium transition-colors"
+                                            className="flex items-center justify-center gap-2 px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-full font-medium transition-colors"
                                         >
                                             <ExternalLink size={20} />
                                             Live Demo
