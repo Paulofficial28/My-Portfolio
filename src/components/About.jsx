@@ -23,9 +23,9 @@ const About = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
                     <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
                     <p className="mt-4 text-gray-400 max-w-3xl mx-auto">
-                        I am a Software Engineer with experience in backend, DevOps, and AI-integrated systems.
-                        I have proven expertise in Docker, Kubernetes, Terraform, Python, and AWS.
-                        I enjoy building scalable systems, developing CI/CD pipelines, and solving complex algorithmic problems.
+                        Backend / Full-Stack Software Engineer with experience building production-grade APIs, cloud-native systems, and automated
+                        CI/CD pipelines. Focused on scalable backend development, infrastructure automation on AWS, and reliable engineering practices,
+                        with exposure to applied AI features delivering measurable business value.
                     </p>
                 </motion.div>
 
@@ -73,12 +73,13 @@ const About = () => {
                         viewport={{ once: true }}
                         className="bg-white/5 p-8 rounded-2xl border border-white/5"
                     >
-                        <h3 className="text-2xl font-bold text-white mb-4">Certifications & Achievements</h3>
+                        <h3 className="text-2xl font-bold text-white mb-4">Certifications</h3>
                         <ul className="space-y-2 text-gray-400">
                             <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>Cloud Computing on AWS - Udemy</li>
                             <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>Docker for Beginners - Udemy</li>
                             <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>Kubernetes Fundamentals - Udemy</li>
-                            <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>Solved 300+ DSA problems on LeetCode</li>
+                            <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>Problem Solving - Hackerrank</li>
+                            <li className="flex items-center"><span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>SQL - Hackerrank</li>
                         </ul>
                     </motion.div>
                 </div>

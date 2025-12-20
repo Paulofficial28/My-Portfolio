@@ -34,10 +34,7 @@ const Hero = () => {
                             & DevOps Enthusiast
                         </span>
                     </h1>
-                    <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto mb-10">
-                        Specializing in backend development, DevOps, and AI-integrated systems.
-                        Building scalable solutions with Python, AWS, and Kubernetes.
-                    </p>
+                    
 
                     <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
                         <a
@@ -54,7 +51,7 @@ const Hero = () => {
                             Contact Me
                         </a>
                         <a
-                            href="/Paul_resume_V3.1.pdf"
+                            href="/Paul_Pandiyan_Resume.pdf"
                             download
                             className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-sm flex items-center justify-center gap-2"
                         >
